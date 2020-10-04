@@ -68,6 +68,11 @@ output "centos_8_x64" {
   value = local.os_zipped["CentOS 8 x64"]
 }
 
+output "centos_8_stream_x64" {
+  value = local.os_zipped["CentOS 8 Stream x64"]
+}
+
+
 output "openbsd_66_x64" {
   value = local.os_zipped["OpenBSD 6.6 x64"]
 }
