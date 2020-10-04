@@ -118,3 +118,15 @@ output "cpanel_centos_7_x64" {
 output "owncloud_ubuntu_1804_x64" {
   value = local.app_zipped["ownCloud on Ubuntu 18.04 x64"]
 }
+
+output "pritunl_ubuntu_1804_x64" {
+  value = local.app_zipped["Pritunl on Ubuntu 18.04 x64"]
+}
+
+output "webpanel_centos_7_x64" {
+  value = local.app_zipped["CentOS Web Panel on CentOS 7 x64"]
+}
+
+output "jitsi_ubuntu_1804_x64" {
+  value = local.app_zipped["Jitsi on Ubuntu 18.04 x64"]
+}
