@@ -32,10 +32,6 @@ output "centos_7_x64" {
   value = local.os_zipped["CentOS 7 x64"]
 }
 
-output "coreos_stable" {
-  value = local.os_zipped["CoreOS Stable"]
-}
-
 output "backup" {
   value = local.os_zipped["Backup"]
 }
@@ -102,10 +98,6 @@ output "ubuntu_1604_x64" {
 
 output "ubuntu_1804_x64" {
   value = local.os_zipped["Ubuntu 18.04 x64"]
-}
-
-output "ubuntu_1910_x64" {
-  value = local.os_zipped["Ubuntu 19.10 x64"]
 }
 
 output "ubuntu_2004_x64" {

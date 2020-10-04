@@ -3,6 +3,9 @@ Data only module for Vultr. Maps Application, Plans, OS, and Region human readab
 
 This module will remove the need to curl the public api endpoints to find App/Plans/OS/Region ID’s. The Terraform HTTP datasources pulls all Apps/OS’s/Regions in four calls then maps them to human readable names to the respective ID in separate outputs. The output names have been made to be relatively human readable, and will return the ID of the App, OS, or Region you are naming.
 
+## Fork
+Project forked to maintain up to date data.
+
 ## Usage
 Import the module like you would any other TF Module:
 ```hcl
